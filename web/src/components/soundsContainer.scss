@@ -1,0 +1,7 @@
+.sounds-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: calc(100vw - 200px);
+    justify-items: center;
+    margin-top: 20vh;
+}
