@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 110 110"><defs><style>
+*{
+    animation: birdAnimation 0.5s linear infinite alternate;
+    transform: translateY(10px);
+}
+
+@keyframes birdAnimation {
+    from {
+        
+        transform: translateX(2px) rotate(0deg);
+    }
+    to {
+        transform: translateX(2px) rotate(2deg);
+    }
+}
+.cls-1,.cls-2{fill:#29abe2;stroke-miterlimit:10;stroke-width:3px;}.cls-1{stroke:#0071bc;}.cls-2{stroke:#000;}.cls-3{fill:#e6e7e8;}</style></defs><g id="Layer_1" data-name="Layer 1"><path class="cls-1" d="M87.79,47.45c0,.94.08,1.9.08,2.87,0,25-16.87,45.59-38.43,47.93-.49.06-1,.1-1.5.13-.86.07-1.73.1-2.62.1H2.44L24.19,54.32,10.72,39.08a24.49,24.49,0,0,1-4.91-6.62A25.42,25.42,0,0,1,9.58,2.15l10.64,10.6,5.69,5.67L36.53,29l2.78-5.73A25,25,0,0,1,49,12.53C57.9,7.3,69.36,8.68,76.75,17.85a49.81,49.81,0,0,1,9.06,17.62L97,42Z" transform="translate(-0.02 -0.02)"/><path class="cls-2" d="M45.32,98.48" transform="translate(-0.02 -0.02)"/></g><g id="Layer_3" data-name="Layer 3"><ellipse class="cls-3" cx="65.37" cy="31.2" rx="6.82" ry="6.92"/></g></svg>

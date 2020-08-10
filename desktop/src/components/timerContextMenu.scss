@@ -1,0 +1,86 @@
+.timer-content-menu {
+    display: flex;
+    position: fixed;
+    width: 500px;
+    height: 200px;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    animation: timerContextMenuAnimation 0.1s ease-in-out;
+
+    .timer-form {
+        width: 50%;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .number-container {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+
+            * {
+                color: white;
+                -webkit-user-select: none;
+            }
+
+            .minus,
+            .plus {
+                font-size: 40px;
+                cursor: pointer;
+            }
+
+            .minus {
+                margin-right: 20px;
+            }
+
+            .plus {
+                margin-left: 20px;
+            }
+
+            .num {
+                font-size: 50px;
+                font-weight: bold;
+
+                .unit {
+                    font-size: 20px;
+                    margin-left: 5px;
+                }
+            }
+        }
+
+        .start-button {
+            padding: 10px;
+            font-size: 18px;
+            border-radius: 5px;
+            cursor: pointer;
+            outline: none;
+            transition: opacity 0.05s ease-in-out;
+
+            &:hover {
+                opacity: 0.8;
+            }
+        }
+    }
+
+    .timer-info {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        .timer-info-text {
+            color: lightgrey;
+            font-size: 20px;
+        }
+    }
+}
+
+@keyframes timerContextMenuAnimation {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
