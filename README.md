@@ -4,6 +4,15 @@
 
 ## Dev
 
+**Stack**
+
+-   Javascript
+-   React JS
+-   React Router
+-   CSS
+-   Sass
+-   Electron
+
 **Web**
 
 ```zsh
