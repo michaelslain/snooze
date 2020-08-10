@@ -32,14 +32,15 @@ export default function Sound({
 
     const handleAudioInit = () => (audio.loop = true)
     const handleDynamicState = () => {
-        if (volume === 0) {
+        if (volume < 1) {
             setIsDynamic(false)
             return
         }
         if (!isPlaying) {
             setIsDynamic(false)
+            return
         }
-        if (isPlaying) setIsDynamic(true)
+        setIsDynamic(true)
     }
     const handlePlayAudio = () => {
         if (isDynamic) audio.play()

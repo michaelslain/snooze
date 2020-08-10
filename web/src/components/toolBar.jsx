@@ -23,6 +23,7 @@ export default function ToolBar({ isPlaying, setIsPlaying, handleStop }) {
             alt="Pause"
             className="button main-button pause"
             onClick={handlePause}
+            title="Play"
         />
     )
     const playButton = (
@@ -31,6 +32,7 @@ export default function ToolBar({ isPlaying, setIsPlaying, handleStop }) {
             alt="Play"
             className="button main-button play"
             onClick={handlePlay}
+            title="Pause"
         />
     )
 
@@ -42,6 +44,7 @@ export default function ToolBar({ isPlaying, setIsPlaying, handleStop }) {
                     alt="Stop"
                     className="button stop"
                     onClick={handleStop}
+                    title="Stop"
                 />
                 {isPlaying ? pauseButton : playButton}
                 <img
@@ -50,6 +53,7 @@ export default function ToolBar({ isPlaying, setIsPlaying, handleStop }) {
                     className="button timer"
                     ref={timerRef}
                     onClick={handleToggleTimerContextMenu}
+                    title="Sleep Timer"
                 />
                 <TimerContextMenu
                     timerRef={timerRef}

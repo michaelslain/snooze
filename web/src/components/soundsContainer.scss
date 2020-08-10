@@ -5,3 +5,9 @@
     justify-items: center;
     margin-top: 20vh;
 }
+
+@media only screen and (max-width: 730px) {
+    .sounds-container {
+        grid-template-columns: 1fr 1fr;
+    }
+}

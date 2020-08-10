@@ -7,3 +7,11 @@
     user-select: none;
     z-index: -5;
 }
+
+@media only screen and (max-width: 730px) {
+    .background-title {
+        left: -500px;
+        font-size: 400px;
+        transform: rotate(90deg);
+    }
+}

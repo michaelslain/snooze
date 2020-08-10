@@ -15,6 +15,7 @@ import TreeDynamicImage from '../images/tree-dynamic.svg'
 
 import VinylStaticImage from '../images/vinyl-static.svg'
 import VinylDynamicImage from '../images/vinyl-dynamic.svg'
+import VinylSound from '../sounds/vinyl.mp3'
 
 // Components
 import Background from '../components/background'
@@ -48,7 +49,7 @@ export default function Sounds() {
             name: 'Vinyl',
             staticImage: VinylStaticImage,
             dynamicImage: VinylDynamicImage,
-            sound: BirdSound,
+            sound: VinylSound,
         },
     ]
 
