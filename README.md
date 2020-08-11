@@ -20,14 +20,13 @@
 cd web-desktop
 
 # install dependencies
-yarn
+yarn react-install
 
 # run dev server
 yarn react-start
 
 # build for production
 yarn react-build
-
 ```
 
 **Desktop**
