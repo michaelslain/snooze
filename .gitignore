@@ -1,29 +1,29 @@
-# web version
-/web/node_modules
-/web/.pnp
-/web/.pnp.js
-/web/coverage
-/web/build
-/web/.DS_Store
-/web/.env.local
-/web/.env.development.local
-/web/.env.test.local
-/web/.env.production.local
-/web/npm-debug.log*
-/web/yarn-debug.log*
-/web/yarn-error.log*
+# web and desktop version
+/web-desktop/node_modules
+/web-desktop/.pnp
+/web-desktop/.pnp.js
+/web-desktop/coverage
+/web-desktop/build
+/web-desktop/.DS_Store
+/web-desktop/.env.local
+/web-desktop/.env.development.local
+/web-desktop/.env.test.local
+/web-desktop/.env.production.local
+/web-desktop/npm-debug.log*
+/web-desktop/yarn-debug.log*
+/web-desktop/yarn-error.log*
 
-# desktop version
-/desktop/node_modules
-/desktop/.pnp
-/desktop/.pnp.js
-/desktop/coverage
-/desktop/build
-/desktop/.DS_Store
-/desktop/.env.local
-/desktop/.env.development.local
-/desktop/.env.test.local
-/desktop/.env.production.local
-/desktop/npm-debug.log*
-/desktop/yarn-debug.log*
-/desktop/yarn-error.log*
+# mobile
+/mobile/node_modules/**/*
+/mobile/.expo/*
+/mobile/npm-debug.*
+/mobile/*.jks
+/mobile/*.p8
+/mobile/*.p12
+/mobile/*.key
+/mobile/*.mobileprovision
+/mobile/*.orig.*
+/mobile/web-build/
+/mobile/.DS_Store
+
+

@@ -17,16 +17,16 @@
 
 ```zsh
 # enter web file
-cd web
+cd web-desktop
 
 # install dependencies
 yarn
 
 # run dev server
-yarn start
+yarn react-start
 
 # build for production
-yarn build
+yarn react-build
 
 ```
 
@@ -34,19 +34,16 @@ yarn build
 
 ```zsh
 # enter desktop file
-cd desktop
+cd web-desktop
 
 # install dependencies
 yarn
 
 # run both react and electron server
-yarn start
+yarn electron-start
 
-# run just react server
-yarn react-start
-
-# build electron app (with react) for production
-yarn build
+# build electron app for production
+yarn desktop-build
 
 # build just react app for production
 yarn react-build
